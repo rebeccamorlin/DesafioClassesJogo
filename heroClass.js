@@ -31,6 +31,8 @@ class Hero {
 
 // Criando um objeto do tipo 'ninja'
 const ninja = new Hero('Sasuke Uchiha', 15, 'Ninja');
+const mago = new Hero('Sirius Black', 21, 'Mago');
 
 // Chamada de método
 ninja.attack();
+mago.attack();
